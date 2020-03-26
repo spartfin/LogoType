@@ -1,0 +1,95 @@
+/* Вверхняя навигация */
+.navigation__wrapper {
+  min-height: 62px;
+  background-color: #efefef;
+  margin-bottom: 30px;
+}
+
+.navigation__header {
+  display: flex;
+  max-width: 1170px;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation__catalog {
+  position: relative;
+  font-family: $textPantonSemiBold;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 61px;
+  padding-right: 51px;
+  border-radius: 3px;
+  background: linear-gradient(
+    270deg,
+    rgb(1, 135, 193) 0%,
+    rgb(58, 192, 239) 100%
+  );
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 18px;
+    background-image: url("../img/burger-icon.png");
+    top: 21px;
+    left: 21px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 12px;
+    background-image: url("../img/arrow-right-icon.png");
+    background-size: cover;
+    transform: rotate(90deg);
+    top: 25px;
+    right: 25px;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 770px;
+  font-family: $textPantonBold;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation__list li {
+  position: relative;
+
+  &:hover {
+    color: #009ee2;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 25px;
+      height: 12px;
+      background-image: url("../img/arrow-focus.png");
+      background-size: cover;
+      top: -20px;
+      right: calc(50% - 12.5px);
+    }
+  }
+}
+
+/* Нижняя навигация */
