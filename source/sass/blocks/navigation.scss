@@ -34,11 +34,7 @@
   padding-left: 41px;
   padding-right: 30px;
   border-radius: 3px;
-  background: linear-gradient(
-    270deg,
-    rgb(1, 135, 193) 0%,
-    rgb(58, 192, 239) 100%
-  );
+  background: linear-gradient(270deg, rgb(1, 135, 193) 0%, rgb(58, 192, 239) 100%);
   margin-right: 40px;
 
   &::before {
@@ -108,11 +104,10 @@
 .navigation__bottom {
   display: flex;
   max-width: 1170px;
-  min-height: 712px;
+  min-height: 710px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid rgb(239, 239, 239);
 }
 
 .navigation__products_list {
@@ -143,7 +138,7 @@
     height: 12px;
     border: 3px solid rgb(29, 30, 30);
     border-radius: 50%;
-    top: 18x;
+    top: 18px;
     left: 21px;
   }
 
@@ -186,11 +181,7 @@
   width: 847px;
   min-height: 409px;
   border-radius: 5px;
-  background: linear-gradient(
-    90deg,
-    rgb(1, 135, 193) 0%,
-    rgb(58, 192, 239) 100%
-  );
+  background: linear-gradient(90deg, rgb(1, 135, 193) 0%, rgb(58, 192, 239) 100%);
   padding-left: 41px;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -259,10 +250,6 @@
 }
 
 .preview__slides {
-  list-style: none;
-}
-
-.preview__slides {
   position: absolute;
   list-style: none;
   display: flex;
@@ -318,11 +305,7 @@
   height: 100%;
   min-height: 172px;
   border-radius: 5px;
-  background: linear-gradient(
-    90deg,
-    rgb(1, 135, 193) 0%,
-    rgb(58, 192, 239) 100%
-  );
+  background: linear-gradient(90deg, rgb(1, 135, 193) 0%, rgb(58, 192, 239) 100%);
   padding-top: 21px;
   padding-left: 23px;
   padding-right: 100px;
