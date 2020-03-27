@@ -1,7 +1,6 @@
 .new-items {
   display: flex;
   flex-direction: column;
-  max-width: 1170px;
   min-height: 676px;
   margin: 0 auto;
   border-bottom: 1px solid rgb(239, 239, 239);
@@ -9,6 +8,8 @@
 
 .new-items__title {
   position: relative;
+  width: 1170px;
+  margin: 0 auto;
   display: flex;
   padding-top: 52px;
   padding-bottom: 49px;
@@ -221,6 +222,7 @@
   background: linear-gradient(270deg, rgb(1, 135, 193) 0%, rgb(58, 192, 239) 100%);
   letter-spacing: 0.21em;
   padding: 10px;
+  padding-top: 15px;
 
   &:hover {
     opacity: 0.5;
