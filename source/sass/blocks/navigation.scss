@@ -12,7 +12,6 @@
 .navigation__header {
   display: flex;
   max-width: 1170px;
-  justify-content: space-between;
   align-items: center;
   min-height: 62px;
   margin: 0 auto;
@@ -40,6 +39,7 @@
     rgb(1, 135, 193) 0%,
     rgb(58, 192, 239) 100%
   );
+  margin-right: 40px;
 
   &::before {
     position: absolute;
@@ -72,12 +72,13 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 770px;
+  width: 828px;
   font-family: $textPantonBold;
   font-size: 14px;
   line-height: 25px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.045em;
 }
 
 .navigation__list li {
@@ -96,6 +97,10 @@
       top: -20px;
       right: calc(50% - 12.5px);
     }
+  }
+
+  &:last-child {
+    margin-left: 10px;
   }
 }
 
@@ -118,6 +123,7 @@
   line-height: 20px;
   font-weight: 700;
   margin-right: 30px;
+  letter-spacing: 0.04em;
 }
 
 .navigation__products_list li {
@@ -128,7 +134,7 @@
   height: 46px;
   background-color: #efefef;
   padding: 14px 61px;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 
   &::before {
     position: absolute;
@@ -148,8 +154,8 @@
     height: 12px;
     background-image: url("../img/arrow-right-icon.png");
     background-size: cover;
-    top: 18px;
-    right: 20px;
+    top: 16px;
+    right: 19px;
   }
 
   &:hover {
@@ -186,7 +192,7 @@
     rgb(58, 192, 239) 100%
   );
   padding-left: 41px;
-  padding-top: 65px;
+  padding-top: 60px;
   padding-bottom: 30px;
   padding-right: 475px;
   margin-bottom: 29px;
@@ -200,7 +206,8 @@
   font-weight: 800;
   color: #ffffff;
   text-transform: uppercase;
-  margin-bottom: 27px;
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
 }
 
 .preview__lis_item p {
@@ -209,7 +216,8 @@
   line-height: 30px;
   font-weight: 600;
   color: #4bd1fe;
-  margin-bottom: 14px;
+  margin-bottom: 2px;
+  letter-spacing: 0.045em;
 }
 
 .preview__lis_item span {
@@ -218,13 +226,13 @@
   line-height: 45px;
   font-weight: 400;
   color: #ffffff;
-  margin-bottom: 29px;
+  margin-bottom: 22px;
 }
 
 .preview__lis_item a {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 174px;
   min-height: 54px;
   font-family: $textPantonBold;
@@ -234,7 +242,8 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #1d1e1e;
-  padding: 12px 45px;
+  padding: 12px 12px;
+  letter-spacing: 0.21em;
 
   &:hover {
     opacity: 0.5;
@@ -246,7 +255,7 @@
   width: 333px;
   height: 426px;
   bottom: 0;
-  right: 96px;
+  right: 82px;
 }
 
 .preview__slides {
@@ -258,11 +267,11 @@
   list-style: none;
   display: flex;
   align-items: center;
-  min-width: 65px;
+  min-width: 70px;
   width: auto;
   justify-content: space-between;
   height: 15px;
-  bottom: 40px;
+  bottom: 63px;
   left: 41px;
 }
 
@@ -314,9 +323,9 @@
     rgb(1, 135, 193) 0%,
     rgb(58, 192, 239) 100%
   );
-  padding-top: 26px;
+  padding-top: 21px;
   padding-left: 23px;
-  padding-right: 124px;
+  padding-right: 100px;
   padding-bottom: 21px;
 
   &:nth-child(3n + 2) {
@@ -333,7 +342,8 @@
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 16px;
+  margin-bottom: 9px;
+  letter-spacing: 0.019em;
 
   &::before {
     position: absolute;
@@ -345,8 +355,8 @@
     background-image: url("../img/arrow-right-icon-white.png");
     background-repeat: no-repeat;
     background-position: center;
-    top: 100px;
-    left: 0;
+    top: 104px;
+    left: 1px;
   }
 }
 
@@ -357,18 +367,19 @@
   font-weight: 600;
   color: #4bd1fe;
   margin-bottom: 14px;
+  letter-spacing: 0.06em;
 }
 
 .navigation__rawbite {
   position: absolute;
-  bottom: -20px;
-  right: -20px;
+  bottom: -19px;
+  right: -18px;
 }
 
 .navigation__journal {
   position: absolute;
-  bottom: -20px;
-  right: -20px;
+  bottom: -16px;
+  right: -17px;
 }
 
 .navigation__pike-fisherman {
