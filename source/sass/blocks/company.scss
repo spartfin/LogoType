@@ -1,0 +1,147 @@
+.company {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 58px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+
+.company__discounts {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company__discounts_item {
+  position: relative;
+  display: flex;
+  width: 555px;
+  height: 280px;
+  box-shadow: 0 30px 15px -18px rgba(0, 0, 0, 0.2);
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: rgb(29, 30, 30);
+    background-image: url("../img/arrow-right-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px 14px;
+    top: 200px;
+    left: 44px;
+  }
+}
+
+.company__discounts_item a {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(1, 135, 193) 0%, rgb(58, 192, 239) 100%);
+  padding-top: 41px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 34px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.company__discounts h3 {
+  font-family: $textPantonExtraBold;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.025em;
+  padding-right: 182px;
+  margin-bottom: 27px;
+}
+
+.company__discounts_item p {
+  position: absolute;
+  font-family: $textPantonSemiBold;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #5dd5fe;
+  letter-spacing: 0.001em;
+  top: 55px;
+  right: 180px;
+}
+
+.company__discounts_item b {
+  display: flex;
+  justify-content: center;
+  font-family: $textPantonExtraBold;
+  font-size: 95px;
+  line-height: 85px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.001em;
+  opacity: 0.2;
+  padding-right: 42px;
+}
+
+.company__fishing-linee {
+  position: absolute;
+  width: 172px;
+  height: 297px;
+  bottom: -8px;
+  right: 22px;
+}
+
+.company__coil-discount {
+  position: absolute;
+  width: 203px;
+  height: 274px;
+  bottom: -20px;
+  right: 18px;
+}
+
+.company h2 {
+  font-family: $textPantonExtraBold;
+  font-size: 36px;
+  line-height: 25px;
+  font-weight: 800;
+  padding-top: 98px;
+  margin-bottom: 51px;
+  text-transform: uppercase;
+}
+
+.company__description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 557px;
+  max-width: 557px;
+  min-width: 557px;
+  height: 450px;
+  max-height: 450px;
+  min-height: 450px;
+}
+
+.company__description p {
+  display: flex;
+  width: 557px;
+  max-width: 557px;
+  min-width: 557px;
+  font-family: $textPantonSemiBold;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #1d1e1e;
+  opacity: 0.9;
+  margin-bottom: 25px;
+  letter-spacing: 0.021em;
+
+  &:last-child {
+    margin-left: 28px;
+    letter-spacing: 0.008em;
+  }
+}
