@@ -48,6 +48,12 @@
   }
 }
 
+.header__services a {
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
 .header__phone {
   display: flex;
   font-size: 13px;
@@ -65,7 +71,7 @@
   }
 }
 
-/* Нжняя половина шапки */
+/* Нижняя половина шапки */
 .header__bottom {
   display: flex;
   max-width: 1170px;
@@ -98,6 +104,8 @@
 .header__form input {
   width: 100%;
   border: none;
+  font-size: 14px;
+  padding-left: 23px;
 }
 
 .header__form input::placeholder {
@@ -105,7 +113,6 @@
   font-size: 14px;
   line-height: 25px;
   font-weight: 400;
-  padding-left: 23px;
   letter-spacing: 0.05em;
 }
 

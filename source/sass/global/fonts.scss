@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "PantonSemiBold";
-  src: local("PantonSemiBold"), url("/source/fonts/PantonSemiBold.woff2") format("woff2"), url("../fonts/PantonSemiBold.woff") format("woff");
+  src: local("PantonSemiBold"), url("../fonts/PantonSemiBold.woff2") format("woff2"), url("../fonts/PantonSemiBold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
